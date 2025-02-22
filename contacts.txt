@@ -1,0 +1,2 @@
+Kolya,ALekseev,Sergeevich,MOscow,01.01.1987,kol@yandex.ru,
+Иван,Иванов,Иванович,ул. Ленина 1,01.01.1990,ivan@example.com,+79161234567;+78121234567

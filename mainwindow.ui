@@ -1,0 +1,131 @@
+<ui version="4.0">
+  <class>MainWindow</class>
+  <widget class="QMainWindow" name="MainWindow">
+    <property name="geometry">
+      <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>600</height>
+      </rect>
+    </property>
+    <property name="windowTitle">
+      <string>PhoneBook</string>
+    </property>
+    <widget class="QWidget" name="centralwidget">
+      <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+          <widget class="QTableWidget" name="tableWidget"/>
+        </item>
+        <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+              <widget class="QLineEdit" name="firstNameEdit"/>
+            </item>
+            <item>
+              <widget class="QLineEdit" name="lastNameEdit"/>
+            </item>
+            <item>
+              <widget class="QLineEdit" name="middleNameEdit"/>
+            </item>
+            <item>
+              <widget class="QLineEdit" name="addressEdit"/>
+            </item>
+            <item>
+              <widget class="QDateEdit" name="birthDateEdit"/>
+            </item>
+            <item>
+              <widget class="QLineEdit" name="emailEdit"/>
+            </item>
+            <item>
+              <widget class="QLineEdit" name="phoneNumbersEdit"/>
+            </item>
+          </layout>
+        </item>
+        <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+              <widget class="QPushButton" name="addButton">
+                <property name="text">
+                  <string>Add</string>
+                </property>
+              </widget>
+            </item>
+            <item>
+              <widget class="QPushButton" name="removeButton">
+                <property name="text">
+                  <string>Remove</string>
+                </property>
+              </widget>
+            </item>
+            <item>
+              <widget class="QPushButton" name="editButton">
+                <property name="text">
+                  <string>Edit</string>
+                </property>
+              </widget>
+            </item>
+            <item>
+              <widget class="QPushButton" name="searchButton">
+                <property name="text">
+                  <string>Search</string>
+                </property>
+              </widget>
+            </item>
+            <item>
+              <widget class="QLineEdit" name="searchEdit"/> <!-- Добавленный элемент -->
+            </item>
+            <item>
+              <widget class="QPushButton" name="sortFirstNameButton">
+                <property name="text">
+                  <string>Sort by First Name</string>
+                </property>
+              </widget>
+            </item>
+            <item>
+              <widget class="QPushButton" name="sortLastNameButton">
+                <property name="text">
+                  <string>Sort by Last Name</string>
+                </property>
+              </widget>
+            </item>
+            <item>
+              <widget class="QPushButton" name="sortBirthDateButton">
+                <property name="text">
+                  <string>Sort by Birth Date</string>
+                </property>
+              </widget>
+            </item>
+            <item>
+              <widget class="QPushButton" name="saveButton">
+                <property name="text">
+                  <string>Save</string>
+                </property>
+              </widget>
+            </item>
+            <item>
+              <widget class="QPushButton" name="loadButton">
+                <property name="text">
+                  <string>Load</string>
+                </property>
+              </widget>
+            </item>
+          </layout>
+        </item>
+      </layout>
+    </widget>
+    <widget class="QMenuBar" name="menubar">
+      <property name="geometry">
+        <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>800</width>
+          <height>30</height>
+        </rect>
+      </property>
+    </widget>
+    <widget class="QStatusBar" name="statusbar"/>
+  </widget>
+  <resources/>
+  <connections/>
+</ui>
